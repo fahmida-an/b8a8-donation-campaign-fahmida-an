@@ -5,7 +5,7 @@ const Cards = ({cards}) => {
     console.log(cards);
     return (
         <div className="py-10">
-            <h2 className="text-2xl text-center" >All Categories</h2>
+            {/* <h2 className="text-2xl text-center" >All Categories</h2> */}
             <div className="grid grid-cols-4 gap-5 py-10">
                 {
                     cards?.map(card => <CategoriesCard

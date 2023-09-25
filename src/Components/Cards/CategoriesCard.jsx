@@ -13,7 +13,7 @@ const CategoriesCard = ({card}) => {
       };
       
   return (
-    <div>
+    <div className="py-10">
       <div style={backgroundStyle} className="card card-compact w-72">
         <figure>
           <img
@@ -23,7 +23,7 @@ const CategoriesCard = ({card}) => {
         </figure>
         <div className="card-body">
           
-          <h1 style={categoryStyle} className="w-[80px] p-2 text-center">{category}</h1>
+          <h1 style={categoryStyle} className="w-[80px] p-2 text-center rounded-lg">{category}</h1>
           <h2 style={textStyle} className="card-title">{title}</h2>
          
         </div>
