@@ -1,5 +1,6 @@
 const Banner = () => {
   return (
+    
     <div
       className="hero min-h-screen"
       style={{ backgroundImage: "url(donation.png)" } }
@@ -22,17 +23,7 @@ const Banner = () => {
       </div>
     </div>
 
-    // <div className="h-[70vh]">
-    //    <div className="relative">
-    //    <img className="w-full" src="Clothing.png" alt="" />
-    //    </div>
-
-    //    <div className="absolute mt-[-350px] ml-[350px] flex justify-center ">
-    //     <input className="border h-10 pl-2 w-[400px] " type="search" placeholder="search here.." />
-    //     <button className="bg-[#FF444A] text-white rounded-sm font-bold p-2 " type="submit">Search</button>
-    //    </div>
-
-    // </div>
+  
   );
 };
 
