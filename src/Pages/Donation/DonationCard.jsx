@@ -17,6 +17,12 @@ const DonationCard = ({card}) => {
         background: card_bg,
       };
 
+      
+
+
+
+
+
     return (
         <div className="flex justify-center items-center py-6 ">
         <div style={backgroundStyle} className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">

@@ -1,10 +1,7 @@
 import { Link } from "react-router-dom";
-// import SearchCategory from "../../Pages/SearchCard/SearchCategory";
-const CategoriesCard = ({card}) => {
+const SearchCategory = ({card}) => {
  
-  
     const {id, image,title, category, category_bg, card_bg, text_bg, description, price} = card || {};
-
     const categoryStyle = {
         color: text_bg,
         background: category_bg,
@@ -17,10 +14,9 @@ const CategoriesCard = ({card}) => {
       };
       
   return (
-    
     <div className="py-10">
         <Link to={`/cards/${id}`}>
-      <div style={backgroundStyle} className="card card-compact lg:w-72 md:w-80 w-96 ">
+      <div style={backgroundStyle} className="card card-compact w-72">
         <figure>
           <img
             src={image}
@@ -41,4 +37,4 @@ const CategoriesCard = ({card}) => {
   );
 };
 
-export default CategoriesCard;
+export default SearchCategory;

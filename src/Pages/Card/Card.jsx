@@ -7,9 +7,10 @@ import CategoryCard from "./CategoryCard"
 
 const Card = () => {
     const [card, setCard] = useState({});
-    const {id} = useParams();
-    const idInt = parseInt(id);
-    const cards = useLoaderData();
+   
+  const {id} = useParams();
+  const idInt = parseInt(id);
+  const cards = useLoaderData();
 
 
     // console.log(cards);
@@ -20,8 +21,11 @@ const Card = () => {
       
     },[idInt, cards]);
 
+    
     return (
         <div>
+
+            
             {
                 <CategoryCard card={card}></CategoryCard>
             }

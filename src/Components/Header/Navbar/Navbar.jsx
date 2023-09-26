@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     return (
         <div>
-            <nav className="flex justify-between items-center py-6 shadow-md px-5">
+            <nav className="flex justify-around lg:justify-between items-center lg:py-6 shadow-md lg:px-5">
                 <Logo></Logo>
-                <ul className="flex gap-5">
+                <ul className="flex flex-col lg:flex-row gap-2 p-2 lg:gap-5">
           <li>
             <NavLink
               to="/"

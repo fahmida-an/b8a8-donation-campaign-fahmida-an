@@ -3,6 +3,7 @@ import DonationCard from "./DonationCard";
 
 const Donation = () => {
     const [donations, setDonations] = useState([]);
+
     const [isShow,setIsShow] = useState(false)
     useEffect(()=>{
         const donatedThings = JSON.parse(localStorage.getItem("donations"));
@@ -12,7 +13,8 @@ const Donation = () => {
     },[]);
     return (
         <div>
-            <div className="grid grid-cols-2 gap-5">
+   
+            <div className="grid grid-cols-1 p-3 md:grid-cols-2 lg:grid-cols-2 gap-5">
             {
                 isShow ? donations.map((card) => (
                     <DonationCard key={card.id} card={card}></DonationCard>
@@ -24,8 +26,8 @@ const Donation = () => {
             }
           </div>
 
-          {donations.length > 4 && <button onClick={()=>setIsShow(!isShow)} className="px-5 bg-green-200 block mx-auto">
-            {isShow ? " " : "See more"}
+          {donations.length > 4 && <button onClick={()=>setIsShow(!isShow)} className="px-5 bg-green-700 text-white p-2 block mx-auto">
+            {isShow ? "See less" : "See All"}
           </button>}
         </div>
     );
