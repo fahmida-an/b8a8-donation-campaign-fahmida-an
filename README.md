@@ -1,5 +1,5 @@
 # Add 3 projects features
 
-* Components
-* Props
-* fake json data file
+* Nav bar with menus
+* 4 categories donations availability
+* Donation details available and All Donation section

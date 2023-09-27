@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DonationCard = ({card, price}) => {
+const DonationCard = ({card}) => {
     const { id, title, image, category, price, text_bg, category_bg,card_bg } = card || {};
     const categoryStyle = {
         color: text_bg,
