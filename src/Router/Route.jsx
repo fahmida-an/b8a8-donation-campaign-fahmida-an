@@ -3,7 +3,7 @@ import MainLayout from "../Layout/MainLayout";
 import Home from "../Pages/Home/Home";
 import Donation from "../Pages/Donation/Donation";
 import Card from "../Pages/Card/Card";
-import SearchCategory from "../Pages/SearchCard/SearchCategory";
+
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Statistics from "../Pages/Statistics/Statistics";
 
@@ -25,17 +25,17 @@ const myCreatedRoute = createBrowserRouter([
       },
       {
         path: "/statistics",
-        element: <Statistics></Statistics>
+        element: <Statistics></Statistics>,
+        loader: () => fetch("/data.json"),
       },
       {
         path : "/cards/:id",
         element :<Card></Card>,
         loader:()=>fetch("/data.json") 
     },
-    {
-      path: "/searchdata",
-      element: <SearchCategory></SearchCategory>
-    }
+    
+
+
     ],
   },
 ]);

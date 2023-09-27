@@ -39,14 +39,14 @@ const Banner = () => {
     <div
 
       className="hero min-h-screen"
-      style={{ backgroundImage: "url(donation.png)" } }
+      style={{ backgroundImage: "url('./donation.png')" } }
     >
       <div className="hero-overlay bg-opacity-90"></div>
       <div className="hero-content text-center text-neutral-content">
         
         <div className="max-w-md flex">
           <input
-            className="border h-10 pl-2 w-[150px] lg:w-[400px] "
+            className="border h-10 pl-2 w-[150px] md:w-[300px] lg:w-[400px] "
             type="search"
             placeholder="Search Category"
         value={searchCategory}
