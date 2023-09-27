@@ -2,4 +2,4 @@
 
 * Nav bar with menus
 * 4 categories donations availability
-* Donation details available and All Donation section
+* Donation details available, All Donation section and a pie chart
