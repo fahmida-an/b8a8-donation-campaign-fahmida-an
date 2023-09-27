@@ -1,11 +1,5 @@
-# 1. Add project features
+# Add 3 projects features
 
 * Components
-* Integration - API Json fake data
 * Props
-* Event Handling on a button
-* Styling
-* Array Map, find
-* State Management - useStates and useEffect
-* Version Control
-* Deployment
+* fake json data file
