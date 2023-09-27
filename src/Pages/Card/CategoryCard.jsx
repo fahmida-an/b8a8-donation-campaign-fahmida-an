@@ -33,10 +33,10 @@ const CategoryCard = ({card}) => {
   return (
 
     
-        <div className="">
+        <div className="px-2">
           
           <div>
-          <img className=" md:h-[500px] md:w-[700px] lg:h-[700px] lg:w-[1380px] mx-auto py-10 lg:relative " src={image} alt="" />
+          <img className=" md:h-[500px] md:w-[700px] lg:h-[700px] lg:w-[1380px] mx-auto py-10 lg:relative" src={image} alt="" />
           </div>
           <button onClick={handleAddtoDonations} style={backgroundStyle} className="p-2 mb-5 text-white rounded-lg lg:absolute lg:-mt-32 lg:ml-24 ">Donate: ${price}</button>
           <h1 className="font-bold text-2xl">{title}</h1>

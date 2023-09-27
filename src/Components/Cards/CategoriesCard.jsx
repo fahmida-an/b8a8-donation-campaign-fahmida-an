@@ -19,23 +19,25 @@ const CategoriesCard = ({card}) => {
   return (
     
     <div className="py-10">
-        <Link to={`/cards/${id}`}>
-      <div style={backgroundStyle} className="card card-compact lg:w-72 md:w-80 w-96 ">
+       <div>
+         <Link to={`/cards/${id}`}>
+      <div style={backgroundStyle} className="card card-compact lg:h-[350px] lg:w-72 md:w-80 w-96 ">
         <figure>
           <img
             src={image}
             alt=""
           />
         </figure>
-        <div className="card-body">
+        <div className="card-body flex flex-col">
           
           <h1 style={categoryStyle} className="w-[80px] p-2 text-center rounded-lg">{category}</h1>
           
-          <h2 style={textStyle} className="card-title">{title}</h2>
+          <h2 style={textStyle} className="card-title text-xl">{title}</h2>
           
         </div>
       </div>
       </Link>
+       </div>
     
     </div>
   );

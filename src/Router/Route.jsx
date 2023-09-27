@@ -6,6 +6,7 @@ import Card from "../Pages/Card/Card";
 
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Statistics from "../Pages/Statistics/Statistics";
+import SearchCard from "../Pages/SearchCard/SearchCard";
 
 const myCreatedRoute = createBrowserRouter([
   {
@@ -33,6 +34,12 @@ const myCreatedRoute = createBrowserRouter([
         element :<Card></Card>,
         loader:()=>fetch("/data.json") 
     },
+    {
+      path: "/searchdata",
+      element: <SearchCard></SearchCard>
+    },
+
+  
     
 
 

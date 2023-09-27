@@ -7,29 +7,29 @@
       "category_bg": "#0052FF33",
       "card_bg": "#0052FF26",
       "text_bg": "#0052FF",   
-      "description": "This is a sample product description for Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Clean Water for Children is a life-changing initiative focused on ensuring access to safe and clean drinking water for children in underserved communities. By providing sustainable water sources, filtration systems, and hygiene education, we aim to prevent waterborne diseases, improve overall health, and enhance the quality of life for young ones. Join us in this noble endeavor, as together, we strive to give children the gift of clean water, enabling them to thrive, learn, and grow in a healthier environment..",
       "price": 99.99
     },
     {
       "id": 2,
       "image": "https://i.ibb.co/fd19JPt/Education.png",
-      "title": "Good education",
+      "title": "Teacher Training and Development",
       "category": "Education",
       "category_bg": "#FF444A33",
       "card_bg": "#FF444A26",
       "text_bg": "#FF444A",
-      "description": "This is a sample product description for Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Support the professional growth of educators by investing in teacher training and development programs. Donations in this category enable teachers to acquire new skills, teaching methodologies, and resources, ultimately improving the quality of education for students.",
       "price": 49.99
     },
     {
       "id": 3,
       "image": "https://i.ibb.co/YWpVyfY/Clothing.png",
-      "title": "Used Clothing Drive",
+      "title": "Clothing Distribution and Needs Assessment",
       "category": "Clothing",
       "category_bg": "#79C23F33",
       "card_bg": "#79C23F26",
       "text_bg": "#79C23F",
-      "description": "This is a sample product description for Product 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "This data tracks the distribution of clothing to underprivileged children and assesses their specific clothing needs. It may include information on the types of clothing items distributed (e.g., shirts, pants, shoes), sizes, and the frequency of distribution.",
       "price": 29.99
     },
     {
@@ -40,18 +40,18 @@
       "category_bg": "#F8714733",
       "card_bg": "#F8714726",
       "text_bg": "#F87147",
-      "description": "This is a sample product description for Product 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Better Food for Everyone is a comprehensive initiative dedicated to improving food quality and accessibility for all individuals, regardless of their socio-economic background. Through sustainable agriculture practices, equitable food distribution, and nutritional education, this initiative aims to enhance food security and promote healthier diets. By fostering partnerships with communities, businesses, and governments, it strives to create a world where nutritious and ethically sourced food is readily available, fostering well-being and reducing hunger on a global scale. Together, we can build a brighter future with better food for everyone.",
       "price": 19.99
     },
     {
       "id": 5,
       "image": "https://i.ibb.co/6WJzhsc/Food.png",
-      "title": "Better Food for Everyone",
+      "title": "Access to Nutritious Food Data",
       "category": "Food",
       "category_bg": "#F8714733",
       "card_bg": "#F8714726",
       "text_bg": "#F87147",
-      "description": "This is a sample product description for Product 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "This data assesses the availability and accessibility of nutritious food options for underprivileged children. It includes information on the proximity of grocery stores, food banks, and community resources providing affordable, healthy food. Factors like transportation and affordability are also considered.",
       "price": 39.99
     },
     {
@@ -62,73 +62,73 @@
       "category_bg": "#79C23F33",
       "card_bg": "#79C23F26",
       "text_bg": "#79C23F",
-      "description": "This is a sample product description for Product 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.This is a sample product description for Product 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.This is a sample product description for Product 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.This is a sample product description for Product 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.This is a sample product description for Product 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.This is a sample product description for Product 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": " Our Used Clothing Drive is a community-driven effort to collect gently worn clothing and distribute it to those in need. By donating your used clothing items, you help provide warmth and dignity to individuals facing economic challenges. Join us in making a positive impact on our community by extending the life cycle of clothing and supporting sustainable practices. Together, we can ensure that no one goes without essential clothing.",
       "price": 79.99
     },
     {
       "id": 7,
       "image": "https://i.ibb.co/fd19JPt/Education.png",
-      "title": "Good education",
+      "title": "Technology and Learning Resources",
       "category": "Education",
       "category_bg": "#FF444A33",
       "card_bg": "#FF444A26",
       "text_bg": "#FF444A",
-      "description": "This is a sample product description for Product 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.This is a sample product description for Product 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.This is a sample product description for Product 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.This is a sample product description for Product 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.This is a sample product description for Product 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.This is a sample product description for Product 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "THelp bridge the digital divide by donating to provide schools and students with access to technology and learning resources. Your contribution can fund the purchase of computers, tablets, internet connectivity, and educational software, ensuring that students have the tools they need for 21st-century learning.",
       "price": 59.99
     },
     {
       "id": 8,
       "image": "https://i.ibb.co/Bcyqn7G/Health.png",
-      "title": "Clean water for children",
+      "title": "Malnutrition and Growth Data",
       "category": "Health",
       "category_bg": "#0052FF33",
       "card_bg": "#0052FF26",
       "text_bg": "#0052FF", 
-      "description": "This is a sample product description for Product 8. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "This data includes information on the nutritional status and growth patterns of underprivileged children, such as measurements of height, weight, and body mass index (BMI). It helps identify malnutrition and growth-related issues, which are prevalent among disadvantaged children.",
       "price": 34.99
     },
     {
       "id": 9,
       "image": "https://i.ibb.co/Bcyqn7G/Health.png",
-      "title": "Clean water for children",
+      "title": "Immunization and Vaccination Records",
       "category": "Health",
       "category_bg": "#0052FF33",
       "card_bg": "#0052FF26",
       "text_bg": "#0052FF", 
-      "description": "This is a sample product description for Product 9. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "These records track the immunization and vaccination history of children, indicating whether they have received essential vaccines to prevent common childhood diseases. Access to this data is crucial for monitoring vaccination coverage and ensuring adequate protection against preventable illnesses..",
       "price": 44.99
     },
     {
       "id": 10,
       "image": "https://i.ibb.co/fd19JPt/Education.png",
-      "title": "Good education",
+      "title": "Scholarships for Underprivileged Students",
       "category": "Education",
       "category_bg": "#FF444A33",
       "card_bg": "#FF444A26",
       "text_bg": "#FF444A",
-      "description": "This is a sample product description for Product 10. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Provide financial support to underprivileged students by offering scholarships that cover tuition fees, books, and other educational expenses. Your donation will empower talented students to pursue their dreams and access quality education, breaking the cycle of poverty. ",
       "price": 24.99
     },
     {
       "id": 11,
       "image": "https://i.ibb.co/YWpVyfY/Clothing.png",
-      "title": "Used Clothing Drive",
+      "title": "Clothing Size and Fit Data",
       "category": "Clothing",
       "category_bg": "#79C23F33",
       "card_bg": "#79C23F26",
       "text_bg": "#79C23F",
-      "description": "This is a sample product description for Product 11. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Collecting data on the sizes and fits of clothing items for underprivileged children is essential to ensure that donated or distributed clothing is comfortable and appropriate for their age and body sizes. This data helps in sourcing or tailoring clothing to fit the children accurately.",
       "price": 129.99
     },
     {
       "id": 12,
       "image": "https://i.ibb.co/6WJzhsc/Food.png",
-      "title": "Better Food for Everyone",
+      "title": "Health and Nutritional Outcomes Data",
       "category": "Food",
       "category_bg": "#F8714733",
       "card_bg": "#F8714726",
       "text_bg": "#F87147",
-      "description": "This is a sample product description for Product 12. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Health and nutritional outcomes data examine the overall health status of underprivileged children, including measures such as growth and development milestones, prevalence of malnutrition, anemia rates, and other health indicators. These data points help evaluate the impact of food-related interventions.",
       "price": 69.99
     }
   ]
